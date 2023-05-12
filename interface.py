@@ -23,7 +23,6 @@ class JanelaJogo:
         self.janela = sg.Window('Jogo da Forca', layout)
         self.janela.read()
 
-
                
     def Iniciar(self):
         palavra_secreta = lp.define_palavra_chave()
